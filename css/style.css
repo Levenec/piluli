@@ -1,0 +1,623 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+ 
+@font-face {
+  font-family: "HelveticaNeueCyrLight";
+  src: url("../fonts/HelveticaNeueCyrLight/HelveticaNeueCyrLight.eot");
+  src: url("../fonts/HelveticaNeueCyrLight/HelveticaNeueCyrLight.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/HelveticaNeueCyrLight/HelveticaNeueCyrLight.woff") format("woff"),
+  url("../fonts/HelveticaNeueCyrLight/HelveticaNeueCyrLight.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "CeraPROLight";
+  src: url("../fonts/CeraPROLight/CeraPROLight.eot");
+  src: url("../fonts/CeraPROLight/CeraPROLight.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/CeraPROLight/CeraPROLight.woff") format("woff"),
+  url("../fonts/CeraPROLight/CeraPROLight.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}@font-face {
+  font-family: "CeraPROBlack";
+  src: url("../fonts/CeraPROBlack/CeraPROBlack.eot");
+  src: url("../fonts/CeraPROBlack/CeraPROBlack.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/CeraPROBlack/CeraPROBlack.woff") format("woff"),
+  url("../fonts/CeraPROBlack/CeraPROBlack.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+header{
+	border-bottom: 2px solid #0099cc;
+	background-color: #f7f7f9;
+}
+
+
+body {
+  
+    padding:5px;
+}
+
+
+.wrap_header{
+	height: 170px;
+	background-color: #f7f7f9;
+	display: flex;
+    align-items: center;
+    justify-content: start;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo{
+	width: 217px;
+ 
+ 
+	display: block;
+	
+}
+.logo img{
+	width: 100%;
+}
+
+.logo span{
+	font-family: "HelveticaNeueCyrLight";
+	color: #999999;
+	font-size: 13px;
+	padding-left: 50px;
+}
+
+.select_category{
+	width: 135px;
+}
+
+.select_category select{
+
+	height: 32px;
+    width: 135px;
+    background-color: #e6e7ea;
+    font-size: 13px;
+    font-family: "HelveticaNeueCyrLight";
+    border: none;
+}
+  .search_wrap{
+  	display: -webkit-flex;
+  	display: -moz-flex;
+  	display: -ms-flex;
+  	display: -o-flex;
+  	display: flex;
+  	margin-left: 130px;
+  }
+ .form_search{
+ 	width: 620px;
+ 	background-color: #fff;
+ 	height: 32px;
+ 	position: relative;
+ }
+ .form_search input{
+ 	width: 600px;
+ 	background-color: #fff;
+ 	height: 32px;
+ 	border: none;
+ 	outline: none;
+ 	font-size: 15px;
+ 	
+ 	padding-left: 15px;
+ 	 font-family: "HelveticaNeueCyrLight";
+
+ }
+ .btn_search{
+ 	border: none;
+ 	background-color: transparent;
+ 	position: absolute;
+ 	right: -7px;
+ }
+.wrap_content_main{
+	max-width: 1200px;
+	margin: 0 auto;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 150px;
+}
+.catalog{
+	width: 270px;
+	
+}
+.letters{
+	height: 120px;
+	padding-bottom: 55px;
+}
+.letters ul li {
+	float: left;
+	font-size: 17px;
+	display: block;
+	width: 30px;
+	color: #1996d7;
+	text-align: center;
+	
+}
+
+
+.letters ul li:hover {
+
+	 background-color: #fcd7e0;
+}
+
+.letters ul li  a {
+	text-decoration: none;
+	color: #1996d7;
+	text-transform: uppercase;
+	font-family: "CeraPROLight";
+	
+
+}
+
+.letters h4{
+	font-size: 15px;
+	font-family: "CeraPROLight";
+	 
+	padding-bottom: 30px;
+}
+.letters h4 b{
+	color: #ea5f80;
+}
+
+.wrap_content{
+	margin-top: 60px;
+}
+.catalog_classification h4{
+	padding-bottom: 15px;
+	font-size: 15px;
+	font-family: "CeraPROLight";
+}
+.catalog_classification ul li{
+	display: block;
+	margin-top: 10px;
+	
+}
+
+.catalog_classification ul li a {
+	text-decoration: none;
+	color: #1996d7;
+	font-family: "CeraPROLight";
+	font-size: 15px;
+	
+}
+.main_content{
+	max-width: 620px;
+}
+.main_content h3{
+	font-size: 15px;
+	font-family: "CeraPROBlack";
+	padding-bottom: 30px;
+
+}
+
+.main_content article{
+
+font-size: 15px;
+font-family: "CeraPROLight";
+
+
+}
+
+.main_content article p {
+	margin-top: 35px;
+	padding-bottom: 15px;
+	font-family: "CeraPROLight";
+
+}
+.baner img{
+	width: 100%;
+}
+
+.baner_right .reklama{
+	margin-top: 50px;
+}
+
+footer{
+	border-top: 1px solid #e6e6e6;
+
+}
+.wrap_footer{
+	max-width: 1200px;
+	margin: 0 auto;
+	padding-top: 60px;
+	display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.wrap_footer ul li {
+	list-style-type: none;
+	margin-top: 15px;
+}
+
+.wrap_footer ul li a {
+	text-decoration: none;
+	color: black;
+	font-size: 15px;
+	font-family: "CeraPROLight";
+}
+
+.wrap_footer ul span{
+	font-size: 20px;
+	font-family: "CeraPROBlack";
+}
+
+.breadc{
+	padding-top: 15px;
+	width: 620px;
+	margin: 0 auto;
+}
+
+.breadc a {
+	text-decoration: none;
+	font-size: 11px;
+	font-family: "CeraPROLight";
+	color: black
+	
+}
+
+.breadc .active_breadc{
+	color: #868686;
+}
+
+.name_product{
+	font-size: 25px;
+	font-family: "CeraPROBlack";
+	color: black;
+}
+.product_review{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+.product_img{
+	width: 165px;
+	height: 185px;
+	margin-top: 15px;
+}
+.product_img img{
+	width: 100%;
+}
+
+.international_descr{
+	font-size: 15px;
+	color: #868686;
+	display: block;
+	margin-top: 20px;
+
+}
+
+.international_name{
+	font-size: 15px;
+	color: #000;
+	font-weight: bold;
+	display: block;
+	
+}
+
+.availability_apoteka{
+		font-size: 15px;
+	color: #868686;
+	display: block;
+	margin-top: 10px;
+}
+
+.availability_apoteka_count{
+		font-size: 15px;
+	color: #000;
+	font-weight: bold;
+	display: block;
+}
+
+
+ /*табы c  описанием  */
+  .tabs {
+      width: 100%;
+     width: 650px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 35px;
+    }
+
+    .tabs>input[type="radio"] {
+      display: none;
+    }
+
+    .tabs>input[type="radio"]:checked+label {
+      background-color: #fff;
+      color: black;
+      font-weight: bold;
+    }
+
+    .tabs>div {
+      /* скрыть контент по умолчанию */
+      display: none;
+   
+    }
+
+    /* отобразить контент, связанный с вабранной радиокнопкой (input type="radio") */
+    #tab-btn-1:checked~#content-1,
+    #tab-btn-2:checked~#content-2,
+    #tab-btn-3:checked~#content-3 {
+      display: block;
+    }
+
+    .tabs>label {
+      display: inline-block;
+      text-align: center;
+      vertical-align: middle;
+      user-select: none;
+      background-color: #fcd7e0;
+      border: 1px solid transparent;
+      padding: 2px 8px;
+      font-size: 16px;
+      line-height: 1.5;
+      font-family: "CeraPROLight";
+      font-size: 15px;
+      transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+      margin-left: 6px;
+      cursor: pointer;
+      color: #868686;
+     
+    }
+
+
+
+    .tabs>label:first-of-type {
+      margin-left: 0;
+    }
+
+    hr{
+    color: #fcd7e0;
+    border: none;
+    height: 1px;
+    display: block;
+    background-color: #fcd7e0;
+    margin-bottom: 20px;
+    }
+
+     /*табы c  описанием  */
+
+
+
+     /*sidebar mobile*/
+
+/* The side navigation menu */
+.sidenav {
+   height: 45em;
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 30px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding-left: 5px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+#mySidenav .letters_menu  ul li {
+	float: left;
+	font-size: 17px;
+	display: block;
+	width: 30px;
+	color: #1996d7;
+	text-align: center;
+	
+}
+#mySidenav .letters_menu ul li:hover a {
+
+	color: #fff;
+}
+
+#mySidenav .letters_menu ul li  a {
+	text-decoration: none;
+	color: #1996d7;
+	text-transform: uppercase;
+	font-family: "CeraPROLight";
+	
+
+}
+
+#mySidenav .letters_menu h4{
+	font-size: 15px;
+	font-family: "CeraPROLight";
+	 color: #fff;
+	padding-bottom: 30px;
+}
+#mySidenav .letters_menu h4 b{
+	color: #ea5f80;
+
+}
+
+.right_menu{
+	width: 50px;
+	height: 50px;
+	/*display: block;*/
+	background-image: url(../men.png);
+	background-size: 100%;
+    background-repeat: no-repeat;
+    position: fixed;
+    display: none;
+	
+}
+
+  /*sidebar mobile*/
+
+
+
+  .map_descr{
+
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+
+  }
+
+ .map_descr p{
+  	font-family: "CeraPROLight";
+  	font-size: 15px;
+  	padding-top: 5px;
+  	color: #a1a1a1;
+  }
+ .map_descr p strong{
+ 	font-weight: bold;
+ 	color: black;
+ }
+
+  .map_descr p a{
+  	text-decoration: underline;
+  	color: #a4ceeb;
+  }
+
+   .map_descr p a:hover{
+  	 transition: color 0.15s ease-in-out;
+  	color: blue;
+  }
+
+  .price_review{
+  	border-bottom: 1px solid #fcd7e0;
+
+  }
+
+  .block_price_apotheka .link_apotheka{
+
+  	font-size: 18px;
+  	font-family: "CeraPROLight";
+  	color: #a4ceeb;
+  	text-decoration: underline;
+  	
+  }
+
+  .block_price_apotheka{
+  	margin-top: 35px;
+  	border-bottom: 1px solid #fcd7e0;
+  	padding-bottom: 40px;
+  }
+
+  .block_price_apotheka .info_apotheka p{
+  		font-family: "CeraPROLight";
+  		font-size: 15px;
+  		margin-top: 10px;
+  		color: #666666;
+  }
+   .block_price_apotheka .info_apotheka p a{
+
+  	font-size: 15px;
+  	font-family: "CeraPROLight";
+  	color: #a4ceeb;
+  	text-decoration: underline;
+   }
+
+.result_price{
+	margin-top: 10px;
+}
+.price_position_block .result_price a{
+	font-size: 15px;
+	font-family: "CeraPROLight";
+	color: black;
+	text-decoration: none;
+	
+}
+
+.position_block {
+	padding-top: 10px;
+	margin-top: 40px;
+	border-bottom: 1px solid #fcd7e0; 
+	padding-bottom: 15px;
+}
+.main_content article  .position_block p{
+	padding-top: 10px;
+	margin-top: 0;
+	font-size: 15px;
+	font-family: "CeraPROLight";
+	color: #777777;
+}
+
+
+.position_block a{
+	color: #1996d7;
+	text-decoration: underline;
+	font-size: 19px;
+}
+
+.position_in_apotheka img{
+	display: block;
+	float: left;
+	margin-top: 3px;
+	
+}
+
+.position_in_apotheka{
+	margin-top: 15px;
+}
+
+.position_in_apotheka span{
+	margin-left: 15px;
+	color: #7f7f7f;
+}
+
+.position_in_apotheka span b{
+ 
+	color: #000;
+}
+
+.position_block .position_in_apotheka a{
+	margin-left: 10px;
+	font-family: "CeraPROLight";
+	text-decoration: underline;
+	color: #3f3f3f;
+	font-weight: bold;
+	font-size: 15px;
+	
+}
